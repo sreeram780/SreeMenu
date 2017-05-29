@@ -8,18 +8,49 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "HomeViewController.h"
+#import "SideMenuViewController.h"
+
+@interface AppDelegate ()<SWRevealViewControllerDelegate>
 
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    NSString *isLogin =[[NSUserDefaults standardUserDefaults] valueForKey:@"isLogin"];
+    
+    if (isLogin.boolValue)
+    {
+        [self pushToHomeScreen];
+    }
+    else
+    {
+        LoginViewController *loginVC =[[LoginViewController alloc] init];
+        self.rootNavigationController = [[UINavigationController alloc]initWithRootViewController:loginVC];
+        self.window.rootViewController = self.rootNavigationController;
+    }
     return YES;
 }
 
+-(void)pushToHomeScreen
+{
+    HomeViewController *homeViewController = [[HomeViewController alloc] init];
+    SideMenuViewController *profileViewController = [[SideMenuViewController alloc] init];
+    
+    self.rootNavigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    
+    UINavigationController *rearNavigationController = [[UINavigationController alloc] initWithRootViewController:profileViewController];
+    
+    SWRevealViewController *mainRevealController = [[SWRevealViewController alloc] initWithRearViewController:rearNavigationController frontViewController:self.rootNavigationController];
+    
+    mainRevealController.delegate = self;
+    [[UINavigationBar appearance] setBarTintColor:[UIColor greenColor]];
+    
+    self.window.rootViewController = mainRevealController;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

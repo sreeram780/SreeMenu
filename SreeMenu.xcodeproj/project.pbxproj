@@ -15,6 +15,24 @@
 		C2B25A251EA7629500902B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A231EA7629500902B96 /* LaunchScreen.storyboard */; };
 		C2B25A301EA7629500902B96 /* SreeMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A2F1EA7629500902B96 /* SreeMenuTests.m */; };
 		C2B25A3B1EA7629600902B96 /* SreeMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A3A1EA7629600902B96 /* SreeMenuUITests.m */; };
+		C2B25A4B1EA7648200902B96 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A4A1EA7648200902B96 /* SWRevealViewController.m */; };
+		C2B25A501EA7669F00902B96 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A4E1EA7669F00902B96 /* BaseViewController.m */; };
+		C2B25A531EA7684600902B96 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A521EA7684600902B96 /* reveal-icon@2x.png */; };
+		C2B25A571EA7687800902B96 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A541EA7687800902B96 /* back.png */; };
+		C2B25A581EA7687800902B96 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A551EA7687800902B96 /* back@2x.png */; };
+		C2B25A591EA7687800902B96 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A561EA7687800902B96 /* back@3x.png */; };
+		C2B25A5C1EA76A7500902B96 /* BaseInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A5B1EA76A7500902B96 /* BaseInitialViewController.m */; };
+		C2B25A601EA76C6200902B96 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A5E1EA76C6200902B96 /* LoginViewController.m */; };
+		C2B25A611EA76C6200902B96 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A5F1EA76C6200902B96 /* LoginViewController.xib */; };
+		C2B25A651EA76CF100902B96 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A631EA76CF100902B96 /* HomeViewController.m */; };
+		C2B25A661EA76CF100902B96 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A641EA76CF100902B96 /* HomeViewController.xib */; };
+		C2B25A6B1EA76DE000902B96 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A691EA76DE000902B96 /* SideMenuViewController.m */; };
+		C2B25A6C1EA76DE000902B96 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A6A1EA76DE000902B96 /* SideMenuViewController.xib */; };
+		C2B25A701EA779B300902B96 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B25A6E1EA779B300902B96 /* FirstViewController.m */; };
+		C2B25A711EA779B300902B96 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A6F1EA779B300902B96 /* FirstViewController.xib */; };
+		C2B25A751EA77B9700902B96 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A721EA77B9700902B96 /* home.png */; };
+		C2B25A761EA77B9700902B96 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A731EA77B9700902B96 /* home@2x.png */; };
+		C2B25A771EA77B9700902B96 /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B25A741EA77B9700902B96 /* home@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,31 @@
 		C2B25A361EA7629500902B96 /* SreeMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SreeMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B25A3A1EA7629600902B96 /* SreeMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SreeMenuUITests.m; sourceTree = "<group>"; };
 		C2B25A3C1EA7629600902B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B25A491EA7648200902B96 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C2B25A4A1EA7648200902B96 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C2B25A4D1EA7669F00902B96 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C2B25A4E1EA7669F00902B96 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C2B25A521EA7684600902B96 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		C2B25A541EA7687800902B96 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		C2B25A551EA7687800902B96 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		C2B25A561EA7687800902B96 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		C2B25A5A1EA76A7500902B96 /* BaseInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitialViewController.h; sourceTree = "<group>"; };
+		C2B25A5B1EA76A7500902B96 /* BaseInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitialViewController.m; sourceTree = "<group>"; };
+		C2B25A5D1EA76C6200902B96 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C2B25A5E1EA76C6200902B96 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C2B25A5F1EA76C6200902B96 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C2B25A621EA76CF100902B96 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C2B25A631EA76CF100902B96 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C2B25A641EA76CF100902B96 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C2B25A681EA76DE000902B96 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		C2B25A691EA76DE000902B96 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		C2B25A6A1EA76DE000902B96 /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		C2B25A6D1EA779B300902B96 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C2B25A6E1EA779B300902B96 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C2B25A6F1EA779B300902B96 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		C2B25A721EA77B9700902B96 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C2B25A731EA77B9700902B96 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		C2B25A741EA77B9700902B96 /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +148,18 @@
 				C2B25A191EA7629500902B96 /* AppDelegate.m */,
 				C2B25A1B1EA7629500902B96 /* ViewController.h */,
 				C2B25A1C1EA7629500902B96 /* ViewController.m */,
+				C2B25A5D1EA76C6200902B96 /* LoginViewController.h */,
+				C2B25A5E1EA76C6200902B96 /* LoginViewController.m */,
+				C2B25A5F1EA76C6200902B96 /* LoginViewController.xib */,
+				C2B25A621EA76CF100902B96 /* HomeViewController.h */,
+				C2B25A631EA76CF100902B96 /* HomeViewController.m */,
+				C2B25A641EA76CF100902B96 /* HomeViewController.xib */,
+				C2B25A6D1EA779B300902B96 /* FirstViewController.h */,
+				C2B25A6E1EA779B300902B96 /* FirstViewController.m */,
+				C2B25A6F1EA779B300902B96 /* FirstViewController.xib */,
+				C2B25A671EA76DBC00902B96 /* SideMenu */,
+				C2B25A4C1EA7666500902B96 /* BaseController */,
+				C2B25A481EA7645D00902B96 /* Swreweal */,
 				C2B25A1E1EA7629500902B96 /* Main.storyboard */,
 				C2B25A211EA7629500902B96 /* Assets.xcassets */,
 				C2B25A231EA7629500902B96 /* LaunchScreen.storyboard */,
@@ -138,6 +193,43 @@
 				C2B25A3C1EA7629600902B96 /* Info.plist */,
 			);
 			path = SreeMenuUITests;
+			sourceTree = "<group>";
+		};
+		C2B25A481EA7645D00902B96 /* Swreweal */ = {
+			isa = PBXGroup;
+			children = (
+				C2B25A491EA7648200902B96 /* SWRevealViewController.h */,
+				C2B25A4A1EA7648200902B96 /* SWRevealViewController.m */,
+				C2B25A521EA7684600902B96 /* reveal-icon@2x.png */,
+				C2B25A541EA7687800902B96 /* back.png */,
+				C2B25A551EA7687800902B96 /* back@2x.png */,
+				C2B25A561EA7687800902B96 /* back@3x.png */,
+				C2B25A721EA77B9700902B96 /* home.png */,
+				C2B25A731EA77B9700902B96 /* home@2x.png */,
+				C2B25A741EA77B9700902B96 /* home@3x.png */,
+			);
+			name = Swreweal;
+			sourceTree = "<group>";
+		};
+		C2B25A4C1EA7666500902B96 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				C2B25A4D1EA7669F00902B96 /* BaseViewController.h */,
+				C2B25A4E1EA7669F00902B96 /* BaseViewController.m */,
+				C2B25A5A1EA76A7500902B96 /* BaseInitialViewController.h */,
+				C2B25A5B1EA76A7500902B96 /* BaseInitialViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		C2B25A671EA76DBC00902B96 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C2B25A681EA76DE000902B96 /* SideMenuViewController.h */,
+				C2B25A691EA76DE000902B96 /* SideMenuViewController.m */,
+				C2B25A6A1EA76DE000902B96 /* SideMenuViewController.xib */,
+			);
+			name = SideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +341,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B25A6C1EA76DE000902B96 /* SideMenuViewController.xib in Resources */,
+				C2B25A711EA779B300902B96 /* FirstViewController.xib in Resources */,
+				C2B25A611EA76C6200902B96 /* LoginViewController.xib in Resources */,
 				C2B25A251EA7629500902B96 /* LaunchScreen.storyboard in Resources */,
+				C2B25A761EA77B9700902B96 /* home@2x.png in Resources */,
+				C2B25A531EA7684600902B96 /* reveal-icon@2x.png in Resources */,
+				C2B25A771EA77B9700902B96 /* home@3x.png in Resources */,
+				C2B25A591EA7687800902B96 /* back@3x.png in Resources */,
+				C2B25A571EA7687800902B96 /* back.png in Resources */,
+				C2B25A581EA7687800902B96 /* back@2x.png in Resources */,
+				C2B25A751EA77B9700902B96 /* home.png in Resources */,
 				C2B25A221EA7629500902B96 /* Assets.xcassets in Resources */,
 				C2B25A201EA7629500902B96 /* Main.storyboard in Resources */,
+				C2B25A661EA76CF100902B96 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +379,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B25A6B1EA76DE000902B96 /* SideMenuViewController.m in Sources */,
 				C2B25A1D1EA7629500902B96 /* ViewController.m in Sources */,
+				C2B25A501EA7669F00902B96 /* BaseViewController.m in Sources */,
+				C2B25A5C1EA76A7500902B96 /* BaseInitialViewController.m in Sources */,
 				C2B25A1A1EA7629500902B96 /* AppDelegate.m in Sources */,
+				C2B25A601EA76C6200902B96 /* LoginViewController.m in Sources */,
 				C2B25A171EA7629500902B96 /* main.m in Sources */,
+				C2B25A701EA779B300902B96 /* FirstViewController.m in Sources */,
+				C2B25A4B1EA7648200902B96 /* SWRevealViewController.m in Sources */,
+				C2B25A651EA76CF100902B96 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
